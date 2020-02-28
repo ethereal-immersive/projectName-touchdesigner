@@ -1,0 +1,10 @@
+CorrelationId: 773e521c-b050-45fa-88df-a8a30e00df85
+UTC DateTime: 2/28/2020 2:24:39 PM
+
+The following files/folders have not been downloaded
+1. Vibe  #1/BASS.wav_Error.txt
+2. Vibe  #1/Loop #1.wav_Error.txt
+3. Vibe  #1/Loop #2.wav_Error.txt
+4. Vibe  #1/Loop #3.wav_Error.txt
+5. Vibe  #1/Loop #4.wav_Error.txt
+6. Vibe  #1/percussion loop.wav_Error.txt
