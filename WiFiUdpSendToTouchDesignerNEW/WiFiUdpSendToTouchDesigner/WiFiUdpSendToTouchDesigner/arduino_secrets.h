@@ -1,2 +1,2 @@
-#define SECRET_SSID "temprouter"
-#define SECRET_PASS "signal88"
+#define SECRET_SSID "belkin.6ce"
+#define SECRET_PASS "34ff439e"

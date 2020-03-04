@@ -24,15 +24,15 @@ int Signal;
 //Keep in mind that you need a simple router to do this, DREXEL network will not let you in
 
 //////////////////////////////////////
-IPAddress destIp(192, 168, 43, 27); // destination IP address (check in CMD with ipconfig/all what the IP of the computer is
-int destPort = 7000; // destinatin Port, make sure Touchdesigner UDP in is set to this!
+IPAddress destIp(192, 168, 2, 2); // destination IP address (check in CMD with ipconfig/all what the IP of the computer is
+int destPort = 7002; // destinatin Port, make sure Touchdesigner UDP in is set to this!
 //////////////////////////////////////
 
 unsigned int localPort = 7001;      // this is the local port of the board, not to be used for sending
 
 WiFiUDP Udp;
 
-
+  
 void setup() 
 {
   WiFi.setPins(SPIWIFI_SS, SPIWIFI_ACK, ESP32_RESETN, ESP32_GPIO0, &SPIWIFI);
