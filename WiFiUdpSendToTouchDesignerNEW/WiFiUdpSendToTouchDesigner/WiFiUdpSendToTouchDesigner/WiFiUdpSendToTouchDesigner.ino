@@ -25,10 +25,10 @@ int Signal;
 
 //////////////////////////////////////
 IPAddress destIp(192, 168, 2, 2); // destination IP address (check in CMD with ipconfig/all what the IP of the computer is
-int destPort = 7002; // destinatin Port, make sure Touchdesigner UDP in is set to this!
+int destPort = 7005; // destinatin Port, make sure Touchdesigner UDP in is set to this!
 //////////////////////////////////////
 
-unsigned int localPort = 7001;      // this is the local port of the board, not to be used for sending
+unsigned int localPort = 7006;      // this is the local port of the board, not to be used for sending
 
 WiFiUDP Udp;
 
