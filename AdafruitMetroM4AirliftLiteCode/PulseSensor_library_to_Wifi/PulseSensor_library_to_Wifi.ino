@@ -34,10 +34,10 @@ const byte SAMPLES_PER_SERIAL_SAMPLE = 10;
 
 //////////////////////////////////////
 IPAddress destIp(192, 168, 2, 2); // destination IP address (check in CMD with ipconfig/all what the IP of the computer is
-int destPort = 7004; // destinatin Port, make sure Touchdesigner UDP in is set to this!
+int destPort = 7003; // destinatin Port, make sure Touchdesigner UDP in is set to this!
 //////////////////////////////////////
 
-unsigned int localPort = 7005;      // this is the local port of the board, not to be used for sending
+unsigned int localPort = 7004;      // this is the local port of the board, not to be used for sending
 PulseSensorPlayground pulseSensor;
 WiFiUDP Udp;
 
